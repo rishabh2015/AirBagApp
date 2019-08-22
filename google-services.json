@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1016022998136",
+    "project_id": "airbagapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016022998136:android:27d689d63f1b7a06",
+        "android_client_info": {
+          "package_name": "com.google.samples.quickstart.signin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016022998136-ef0vik2j7a8e98hcint5rs7vcf1kqegb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.samples.quickstart.signin",
+            "certificate_hash": "32ce277e93a963c74611000e31511dde52eb9806"
+          }
+        },
+        {
+          "client_id": "1016022998136-cbekqhtdvtrvkkc3foa28p7jum4n36ts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDSO5DiR_MUMHNyOO5u0ZBGQ7m-MeRIJ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
