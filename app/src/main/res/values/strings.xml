@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Airbag</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_verify_otp">VerifyOTP</string>
+    <string name="title_activity_show_bag_details">ShowBagDetailsActivity</string>
+    <string name="title_activity_plan_atrip">PlanATripActivity</string>
+    <string name="FCM_PREF">com.example.risha.fcmcloudmessaging.fcm_pref</string>
+    <string name="FCM_TOKEN">com.example.risha.fcmcloudmessaging.fcm_token</string>
+</resources>

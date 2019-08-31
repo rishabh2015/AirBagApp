@@ -1,0 +1,5 @@
+<root>
+    <item name='android.widget.PopupWindow void setFocusable(boolean)'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

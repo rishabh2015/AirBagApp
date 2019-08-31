@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.airbag.airbag">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.GetOtpActivity" />
+        <activity
+            android:name=".activities.Splash"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".activities.UserOrAuth" />
+        <activity android:name=".activities.QRScanner" />
+        <activity android:name=".activities.VerifyOTPActivity" />
+        <activity android:name=".activities.AccountDetails" />
+        <activity
+            android:name=".activities.ShowBagDetailsActivity"
+            android:label="@string/title_activity_show_bag_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.PlanATripActivity"
+            android:label="@string/title_activity_plan_atrip"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Popup"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".activities.AuthoritySignInActivity" />
+        <activity
+            android:name=".activities.Popup2"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".activities.Popup3"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
+        <activity
+            android:name=".activities.QRScanner1"
+            android:theme="@style/AppTheme.CustomTheme" />
+
+        <service
+            android:name=".activities.FcmMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".activities.ReportSuspicion" />
+        <activity android:name=".activities.BagActivity"></activity>
+    </application>
+
+</manifest>

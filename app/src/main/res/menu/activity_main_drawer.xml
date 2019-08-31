@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="UpdateAccountDetails" />
+        <item
+            android:id="@+id/nav_Bag_Journey"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="MyTrips" />
+        <item
+            android:id="@+id/nav_Bags"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="MyBags" />
+        <item
+            android:id="@+id/nav_QR"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="QR" />
+        <item
+            android:id="@+id/nav_report_lost"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Report a Lost" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="MyReports" />
+    </group>
+
+</menu>
